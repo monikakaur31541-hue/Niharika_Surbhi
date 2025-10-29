@@ -1,0 +1,131 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Header Section */
+header {
+    background: linear-gradient(rgba(204, 21, 21, 0.6), rgba(33, 20, 185, 0.6)),
+                url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b') center/cover;
+    color:black;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color:rgb(220, 230, 28);
+}
+
+header p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background:violet;
+    color: rgb(203, 13, 13);
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #380499;
+}
+.about {
+    text-align: center;
+    padding: 60px 20px;
+    background:#a8a8eb;
+    color:black;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #0e8fc2;
+}
+.highlights {
+    text-align: center;
+    padding: 60px 20px;
+    color:rgb(198, 9, 40);
+    background:rgb(213, 126, 167);
+}
+
+.highlights h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: aquamarine;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    color: rgb(5, 5, 5);
+}
+
+.card {
+    background: rgb(90, 196, 234);
+    padding: 20px;
+    width: 280px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    color: #8c20f8;
+}
+
+/* Registration Section */
+.register {
+    background: #21dfd2;
+    text-align: center;
+    padding: 80px 29px;
+}
+
+.register form {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 15px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.register input {
+    width: 108%;
+    padding: 12px;
+    border: 1px solid #d10c0c;
+    border-radius: 8px;
+}
+
+.register button {
+    background: #12a717;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.register button:hover {
+    background: #f412ce;
+}
+
+/* Footer */
+footer {
+    background: #c70b0b;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.85rem;
+}
